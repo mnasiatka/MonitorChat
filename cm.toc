@@ -1,0 +1,8 @@
+## Interface: 11302
+## Title: Chat Monitor
+## Notes: Monitor chat
+## Author: ythogh
+## Version: 0.1
+
+core.xml
+core.lua

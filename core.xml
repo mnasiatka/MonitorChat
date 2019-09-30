@@ -1,0 +1,17 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ 
+    ..\..\FrameXML\UI.xsd">
+    <Script file="core.lua"/> 
+
+    <Frame name="ChatMonitorFrame" enabledMouse="true" movable="true" hidden="false"> 
+        <Scripts>
+            <OnLoad>
+                OnLoad();
+            </OnLoad>
+            <OnUpdate>
+                OnUpdate();
+            </OnUpdate>
+        </Scripts>
+    </Frame>
+</Ui>
